@@ -1,0 +1,74 @@
+
+/*Para a imagem ficar a cobrir o ecrã inteiro */
+html, body{height:100%;}
+
+body {
+background: url(/img/1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* Texto da página inicial */
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    display: none;
+  }
+
+  /* Texto da página inicial */
+.centered2 {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  display: none;
+ 
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: grey;
+    text-align: center;
+ }
+
+ .img_historia
+ {
+     text-align: center;
+ }
+
+ /* unvisited link */
+a:link {color:black;}
+
+/* visited link */
+a:visited {color: black;}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+.card:hover{
+  
+  text-shadow: 1px 5px 5px #a3e4ae;
+
+}
+
+img:hover{
+  zoom: 80%;
+}
+
+.container, .centered, .centered2{
+  background-color: white;
+  color: black;
+}
+
